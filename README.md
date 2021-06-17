@@ -20,8 +20,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 
 ## Register user
 
----
-
 #### Endpoint: **api/users/register/**
 
 ##### Request body:
@@ -47,8 +45,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 `{ "error": "Some error." }`
 
 ## Login user
-
----
 
 #### Endpoint: **api/users/login/**
 
@@ -81,8 +77,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 `{ "error": "Some error." }`
 
 ## List users
-
----
 
 #### Endpoint: **api/users/**
 
@@ -117,8 +111,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 `{ "error": "Some error." }`
 
 ## Database
-
----
 
 #### Table [**users**] structure:
 

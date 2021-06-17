@@ -2,7 +2,7 @@
 
 Simple authentication, authorization and access control API written in PHP. It uses [php-jwt](https://github.com/firebase/php-jwt) with Bearer authentication support. Customizable to meet the requirements of any application.
 
-Settings for token secret and db connection and are found inside **api/config.php**:
+Settings for token secret and db connection and are found inside **config.php**:
 
 - $secret_key = "JWT_SECRET_KEY";
 - $db_host = "my host";

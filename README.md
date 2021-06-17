@@ -20,7 +20,7 @@ Settings for token secret and db connection and are found inside **api/config.ph
 
 ## Register user
 
-#### Endpoint: **api/users/register**
+#### Endpoint: **php-api/users/register**
 
 ##### Request body:
 
@@ -44,7 +44,7 @@ Settings for token secret and db connection and are found inside **api/config.ph
 
 ## Login user
 
-#### Endpoint: **api/users/login**
+#### Endpoint: **php-api/users/login**
 
 ##### Request body:
 
@@ -72,7 +72,7 @@ Settings for token secret and db connection and are found inside **api/config.ph
 
 ## List users
 
-#### Endpoint: **api/users**
+#### Endpoint: **php-api/users**
 
 ##### Request header:
 

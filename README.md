@@ -24,8 +24,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 
 ##### Request body:
 
-###### &nbsp;
-
 ```
 {
   "username": "User",
@@ -50,8 +48,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 
 ##### Request body:
 
-###### &nbsp;
-
 ```
 {
   "username": "User",
@@ -60,8 +56,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 ```
 
 ##### Normal response:
-
-###### &nbsp;
 
 ```
 {
@@ -85,8 +79,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 `{ "Authentication": "Bearer Token" }`
 
 ##### Normal response:
-
-###### &nbsp;
 
 ```
 [
@@ -114,8 +106,6 @@ Settings for token secret and db connection and are found inside **api/config.ph
 
 #### Table [**users**] structure:
 
-###### &nbsp;
-
 ```
 CREATE TABLE `users` (
   `userID` int(11) NOT NULL AUTO_INCREMENT,
@@ -127,8 +117,6 @@ CREATE TABLE `users` (
 ```
 
 #### Table [**profiles**] structure:
-
-###### &nbsp;
 
 ```
 CREATE TABLE `profiles` (
@@ -143,8 +131,6 @@ CREATE TABLE `profiles` (
 ```
 
 #### SQL Procedure [ **ADDUSER(user, pwd, fname, lname, email)** ]:
-
-###### &nbsp;
 
 ```
 DELIMITER $$

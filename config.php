@@ -10,8 +10,8 @@ $secret_key = "MY_SECRET_KEY";
 class DatabaseService {
     private $db_host = "localhost";
     private $db_name = "test";
-    private $db_user = "test";
-    private $db_password = "test";
+    private $db_user = "root";
+    private $db_password = "";
     private $connection;
 
     public function getConnection(){

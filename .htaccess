@@ -1,0 +1,13 @@
+Options -MultiViews
+RewriteEngine On
+
+# to present a custom 404 page
+#ErrorDocument 404 /error
+
+# return 404 for direct .php requests
+RewriteCond %{THE_REQUEST} \.php[/\s?] [NC]
+RewriteRule !^error - [R=404,L]
+
+# silent rewrite to add .php extension
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]

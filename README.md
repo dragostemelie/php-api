@@ -125,7 +125,7 @@ CREATE TABLE `profiles` (
   `firstname` varchar(100) NOT NULL,
   `lastname` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `avatar` varchar(200) NOT NULL,
+  `avatar` varchar(200) DEFAULT NULL,
    PRIMARY KEY (`profileID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```

@@ -7,6 +7,14 @@ header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
+//PREFLIGHT RESPONSE
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {    
+    header("Access-Control-Allow-Origin: * ");
+    header("HTTP/1.1 200 OK");
+    http_response_code(200);
+    exit();    
+} 
+
 $data = json_decode(file_get_contents('php://input'));
 if (!isset($data->username) || 
     !isset($data->password) || 

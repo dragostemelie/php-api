@@ -1,6 +1,7 @@
 # Authentication API
 
-Simple authentication, authorization and access control API written in PHP. It uses [php-jwt](https://github.com/firebase/php-jwt) with Bearer authentication support. Customizable to meet the requirements of any application.
+Simple authentication, authorization and access control API written in PHP. 
+It uses [php-jwt](https://github.com/firebase/php-jwt) with Bearer authentication support.
 
 Settings for token secret and db connection and are found inside **config.php**:
 
@@ -40,7 +41,7 @@ Settings for token secret and db connection and are found inside **config.php**:
 
 ##### Error response:
 
-`{ "error": "Some error." }`
+`{ "error": "Error message." }`
 
 ## Login user
 
@@ -68,7 +69,7 @@ Settings for token secret and db connection and are found inside **config.php**:
 
 ##### Error response:
 
-`{ "error": "Some error." }`
+`{ "error": "Error message." }`
 
 ## List users
 
@@ -100,7 +101,7 @@ Settings for token secret and db connection and are found inside **config.php**:
 
 ##### Error response:
 
-`{ "error": "Some error." }`
+`{ "error": "Error message." }`
 
 ## Database
 
